@@ -1,0 +1,3 @@
+#define DISPLAY_ADDRESS 0x27
+
+LiquidCrystal_I2C lcd(DISPLAY_ADDRESS, 16, 2);
